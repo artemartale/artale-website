@@ -1,0 +1,574 @@
+{
+  "Header": {
+  "home": "Home",
+  "about": "About",
+  "shows": "Shows",
+  "gallery": "Gallery",
+  "videos": "Videos",
+  "contact": "Contact",
+  "book": "Book Us"
+},
+  "Hero": {
+    "international": "International",
+    "circusDuo": "Circus Duo",
+    "description": "Elegant aerial performances, breathtaking acrobatics and unforgettable productions for cruise ships, theatres, luxury resorts and international events.",
+    "book": "Book Show",
+    "explore": "Explore Shows"
+  },
+  
+  "About": {
+  "experience": "Years Experience",
+  "countries": "Countries",
+  "performances": "Performances",
+  "section": "About Us",
+  "intro": "Multiskills circus duo specializing in aerial and acrobatic performances for cruise ships, luxury resorts, theatres and exclusive events.",
+  "paragraph1": "We create elegant aerial performances combining strength, artistry and emotion.",
+  "paragraph2": "Our shows have been presented on cruise ships, luxury hotels, theatres and international stages across Europe and beyond.",
+  "paragraph3": "Every performance is individually adapted to the venue, audience and event format."
+},
+"Shows": {
+  "title": "Our",
+  "titleAccent": "Performances",
+  "description": "Choose the performance format that best suits your venue, audience and event.",
+
+  "acts": {
+    "title": "Circus Acts",
+    "description": "Discover our collection of world-class circus acts, including aerial hoop, aerial silk, hand-to-hand, cube, straps and other unique performances for events of any scale."
+  },
+
+  "fullShows": {
+    "title": "Full Production Shows",
+    "description": "Experience our original 45-minute productions that combine aerial arts, acrobatics, dance and storytelling for theatres, cruise ships and gala events."
+  },
+
+  "events": {
+    "title": "Special Events",
+    "description": "Exclusive performances created for luxury hotels, corporate events, festivals and private celebrations, tailored to your venue and audience."
+  },
+
+  "learnMore": "Learn More"
+},
+"Gallery": {
+  "subtitle": "Gallery",
+  "title": "Moments On",
+  "titleAccent": "Stage"
+},
+"Videos": {
+  "subtitle": "",
+  "title": "Watch",
+  "titleAccent": "Our Performances",
+  "description": "Professional videos from cruise ships, theatres and international events.",
+
+  "showreel": "Showreel 2026",
+  "onceAlways": "Once and Always 45 min",
+  "welcoming": "Welcoming, Go-Go Dancers, Party Artists & Stilt Animation"
+},
+"Clients": {
+  "subtitle": "Trusted Worldwide",
+  "title": "Our",
+  "titleAccent": "Clients",
+  "description": "We have performed aboard international cruise ships, luxury resorts and premium events around the world.",
+
+  "luxury": "Luxury",
+  "hotels": "Hotels",
+
+  "corporate": "Corporate",
+  "events": "Events",
+
+  "international": "International",
+  "festivals": "Festivals"
+},
+
+"FAQ": {
+  "header": {
+  "subtitle": "FAQ",
+  "title": "<faq>F</faq>requently <faq>A</faq>sked <faq>Q</faq>uestions",
+  "description": "Everything organizers usually ask before booking."
+},
+
+  "items": {
+    "duration": {
+      "q": "What types of performances do you offer?",
+      "a": "We offer professional circus acts and complete stage shows ranging from 5 to 45 minutes, suitable for a wide variety of events."
+    },
+
+    "custom": {
+      "q": "Can you customize your performance for our event?",
+      "a": "Absolutely. We can adapt the performance length, music, costumes, and overall style to match your event and audience."
+    },
+
+    "technical": {
+      "q": "What are your technical requirements?",
+      "a": "Our technical requirements vary depending on the act. A detailed technical rider is provided after the booking is confirmed."
+    },
+
+    "equipment": {
+      "q": "Do your performances require special equipment?",
+      "a": "Some aerial acts require rigging points or specific stage conditions. We coordinate all technical details with the venue in advance."
+    },
+
+    "setup": {
+      "q": "How much setup time do you need?",
+      "a": "Depending on the performance, setup usually takes between 30 and 90 minutes, including equipment installation and a technical rehearsal."
+    },
+
+    "experience": {
+      "q": "Do you have experience performing internationally?",
+      "a": "Yes. We have years of experience performing on cruise ships, in theaters, luxury hotels, and at prestigious events around the world."
+    },
+
+    "cost": {
+      "q": "How much does a performance cost?",
+      "a": "Pricing depends on the type of event, location, performance duration, and technical requirements. Contact us for a customized quote."
+    },
+
+    "outdoors": {
+      "q": "Can you perform outdoors?",
+      "a": "Yes, provided that the weather conditions and venue meet the necessary safety and technical requirements."
+    }
+  }
+
+},
+"Footer": {
+  "tagline": "",
+  "about": "About",
+  "shows": "Shows",
+  "gallery": "Gallery",
+  "contact": "Contact",
+  "copyright": "All rights reserved."
+},
+"Phones": {
+  "ukraine": "Ukraine",
+  "slovakia": "Slovakia"
+},
+"Contacts": {
+  "email": "Email",
+  "telegram": "Telegram",
+  "whatsapp": "WhatsApp",
+  "viber": "Viber"
+},
+"Act": {
+  "about": "About the",
+  "act": "Act"
+},
+"Acts": {
+  "learnMore": "Learn More"
+},
+"ActsPage": {
+  "title": "Individual",
+  "titleHighlight": "Acts",
+  "description": "Spectacular circus performances created for theatres, cruise ships, gala dinners, luxury resorts and international events.",
+  "backToShows": "Back to Home",
+  "fullShows": "Full Shows",
+  "corporateEvents": "Corporate Events"
+},
+"ShowTechnical": {
+  "subtitle": "Technical Details",
+  "title": "Technical Information",
+  "duration": "Duration",
+  "performers": "Performers",
+  "technicalRequirements": "Technical Requirements"
+},
+"ActVideo": {
+  "title": "Watch the Performance",
+  "description": "Experience the act in motion.",
+  "iframeTitle": "Act video"
+},
+"BookAct": {
+  "subtitle": "Available Worldwide",
+  "title": "Interested in booking",
+  "description": "We perform at theatres, cruise ships, festivals, gala events, television productions and corporate shows around the world.",
+  "allActs": "All Acts",
+  "bookThisAct": "Book This Act",
+  "nextAct": "Next Act"
+},
+"TechnicalInfo": {
+  "title": "Technical",
+  "titleHighlight": "Information",
+  "description": "Below are the standard technical requirements for this act.",
+  "duration": "Duration",
+  "height": "Height",
+  "music": "Music",
+  "technicalRequirements": "Technical Requirements"
+},
+"BackButton": {
+  "back": "Back"
+},
+"BookShow": {
+  "subtitle": "Available Worldwide",
+  "title": "Book",
+  "description": "Available for theatres, cruise ships, festivals, corporate events, luxury productions and exclusive entertainment worldwide.",
+  "allShows": "All Shows",
+  "contactUs": "Contact Us"
+},
+"ShowCard": {
+  "category": "Full Show",
+  "learnMore": "Learn More"
+},
+"ShowHero": {
+  "backToShows": "Back to Shows",
+  "promoVideo": "Promo Video"
+},
+"ShowVideo": {
+  "title": "Watch the Trailer",
+  "description": "Experience the show in motion.",
+  "iframeTitle": "Show trailer"
+},
+"ShowsPage": {
+  "title": "Full 45 min",
+  "titleHighlight": "Shows",
+  "description": "Two complete productions created for theatres, cruise ships, festivals and luxury events.",
+  "backToHome": "Back to Home",
+  "individualActs": "Individual Acts",
+  "specialEvents": "Special Events"
+},
+
+"ContactForm": {
+  "title": "Send a Booking Request",
+
+  "name": "Your Name",
+  "email": "Email",
+  "message": "Tell us about your event...",
+
+  "button": {
+    "send": "Send Request",
+    "sending": "Sending..."
+  },
+
+  "alerts": {
+    "success": "Your message has been sent successfully! We will contact you soon.",
+    "error": "Something went wrong. Please try again later."
+  }
+},
+"ContactHero": {
+  "subtitle": "Worldwide Booking",
+  "title": "Let's Create",
+  "titleHighlight": "Something Amazing",
+  "description": "Available for theatres, cruise ships, festivals, corporate events and luxury productions worldwide."
+},
+"ContactInfo": {
+  "email": "Email",
+  "phone": "Phone",
+  "facebook": "Facebook",
+  "instagram": "Instagram",
+  "location": "Location",
+  "locationValue": "Europe • Worldwide"
+},
+"SocialLinks": {
+  "subtitle": "STAY CONNECTED",
+  "title": "Follow Duo",
+  "titleHighlight": "ArtAle",
+  "description": "Follow us for performances, backstage moments and new shows."
+},
+"ActHero": {
+  "back": "Back to Individual Acts",
+  "watchVideo": "Watch Video"
+},
+"BookEvent": {
+  "subtitle": "Available Worldwide",
+  "title": "Interested in booking",
+  "description": "We create unforgettable entertainment for corporate events, luxury weddings, gala dinners, festivals and exclusive private celebrations around the world.",
+  "allEvents": "All Events",
+  "bookEvent": "Book This Event"
+},
+"EventCard": {
+  "learnMore": "Learn More"
+},
+"EventHero": {
+  "back": "Back to Events",
+  "watchVideo": "Watch Video"
+},
+"EventsHero": {
+  "title": "Special",
+  "titleHighlight": "Events",
+  "description": "Elegant circus entertainment for corporate events, gala dinners, luxury resorts, weddings, private celebrations and international events.",
+  "backToShows": "Back to Home",
+  "fullShows": "Full Shows",
+  "individualActs": "Individual Acts"
+},
+"validation": {
+  "nameMin": "Please enter at least 2 characters.",
+  "nameMax": "Name is too long.",
+  "nameNumbers": "Name cannot contain only numbers.",
+  "emailInvalid": "Please enter a valid email address.",
+  "phoneInvalid": "Please enter a valid phone number.",
+  "messageMin": "Please enter at least 20 characters.",
+  "messageMax": "Message is too long."
+},
+
+ "Contact": {
+  "subtitle": "Contact",
+  "title": "Book",
+  "description": "We would be happy to discuss your event and create an unforgettable performance.",
+
+  "name": "Your Name",
+  "email": "Email Address",
+  "phone": "Phone (optional)",
+  "company": "Company (optional)",
+  "message": "Tell us about your event...",
+
+  "button": {
+    "send": "Send Mail",
+    "sending": "Sending..."
+  },
+
+  "alerts": {
+    "required": "Please fill in all required fields.",
+    "success": "Your message has been sent successfully! We will contact you soon.",
+    "error": "Something went wrong. Please try again later."
+      }
+      },
+
+  "Testimonials": {
+  "header": {
+    "subtitle": "Testimonials",
+    "title": "What Our",
+    "titleAccent": "Clients Say",
+    "description": "Feedback from clients, organizers, cruise lines and luxury venues around the world."
+    },
+ 
+
+  "items": {
+    "hotelManager": {
+      "name": "Luxury Hotel Manager",
+      "role": "Hospitality",
+      "text": "Elegant, emotional and technically flawless performance. Our guests were amazed from the very first minute."
+    },
+
+    "cruiseDirector": {
+      "name": "Cruise Director",
+      "role": "Cruise Entertainment",
+      "text": "Professional artists with incredible chemistry on stage. Working together was effortless and the audience loved every second."
+    },
+
+    "festivalOrganizer": {
+      "name": "Festival Organizer",
+      "role": "International Festival",
+      "text": "A beautiful combination of strength, artistry and storytelling that perfectly matched the atmosphere of our event."
+    },
+
+    "corporatePlanner": {
+      "name": "Corporate Event Planner",
+      "role": "Business Events",
+      "text": "ArtAle delivered a premium experience. Communication was excellent and the performance exceeded every expectation."
+    },
+
+    "weddingPlanner": {
+      "name": "Wedding Planner",
+      "role": "Luxury Weddings",
+      "text": "A breathtaking performance that became the highlight of the evening. Guests are still talking about it."
+    },
+
+    "producer": {
+      "name": "Entertainment Producer",
+      "role": "Stage Productions",
+      "text": "Reliable, punctual and exceptionally talented performers. Every rehearsal and every show was perfect."
+    },
+
+    "creativeDirector": {
+      "name": "Creative Director",
+      "role": "Live Entertainment",
+      "text": "Their artistic vision and precision made the performance unforgettable. Truly world-class artists."
+    },
+
+    "privateClient": {
+      "name": "Private Client",
+      "role": "Exclusive Event",
+      "text": "The elegance and emotion they brought to our celebration created memories that will last forever."
+    },
+
+    "resortManager": {
+      "name": "Resort Entertainment Manager",
+      "role": "Luxury Resort",
+      "text": "Guests gave standing ovations every night. The act looked spectacular on our stage."
+    },
+
+    "showDirector": {
+      "name": "Show Director",
+      "role": "International Production",
+      "text": "An outstanding duo with impeccable timing, beautiful choreography and excellent stage presence."
+    },
+
+    "venueManager": {
+      "name": "Venue Manager",
+      "role": "Performance Hall",
+      "text": "Professional from start to finish. Setup was smooth and the performance received fantastic feedback."
+    },
+
+    "eventProducer": {
+      "name": "Event Producer",
+      "role": "Premium Events",
+      "text": "Beautiful costumes, graceful movement and an emotional connection with the audience made this act unforgettable."
+    },
+
+    "artisticCoordinator": {
+      "name": "Artistic Coordinator",
+      "role": "Theatre",
+      "text": "A rare combination of technical excellence and genuine emotion. Every movement felt meaningful."
+    },
+
+    "luxuryOrganizer": {
+      "name": "Luxury Event Organizer",
+      "role": "Private Gala",
+      "text": "Our guests described the performance as magical. We couldn't have asked for a better show."
+    },
+
+    "corporateClient": {
+      "name": "Corporate Client",
+      "role": "International Company",
+      "text": "Their professionalism made planning incredibly easy. Everything was delivered exactly as promised."
+    },
+
+    "consultant": {
+      "name": "Entertainment Consultant",
+      "role": "Event Agency",
+      "text": "One of the strongest duo performances we've booked in recent years."
+    },
+
+    "performanceProducer": {
+      "name": "Performance Producer",
+      "role": "Stage Events",
+      "text": "A captivating show full of elegance, athleticism and emotion. The audience responded with endless applause."
+    },
+
+    "eventCoordinator": {
+      "name": "Event Coordinator",
+      "role": "Luxury Brand",
+      "text": "Everything from communication to the final performance was handled with true professionalism."
+    },
+
+    "theatreProducer": {
+      "name": "Theatre Producer",
+      "role": "Live Shows",
+      "text": "A visually stunning act with flawless execution and wonderful storytelling."
+    },
+
+    "bookingManager": {
+      "name": "Booking Manager",
+      "role": "International Agency",
+      "text": "Always punctual, easy to work with and consistently delivering exceptional performances."
+    }    ,
+
+    "galaOrganizer": {
+      "name": "Gala Organizer",
+      "role": "Charity Event",
+      "text": "The performance elevated the entire evening and created an unforgettable atmosphere."
+    },
+
+    "resortDirector": {
+      "name": "Luxury Resort Director",
+      "role": "Hospitality",
+      "text": "Guests repeatedly mentioned ArtAle as the highlight of their stay."
+    },
+
+    "creativeProducer": {
+      "name": "Creative Producer",
+      "role": "Entertainment",
+      "text": "Beautiful stage presence combined with world-class acrobatic technique."
+    },
+
+    "privateHost": {
+      "name": "Private Event Host",
+      "role": "VIP Celebration",
+      "text": "Our family and friends were speechless. It was simply spectacular."
+    },
+
+    "festivalDirector": {
+      "name": "Festival Director",
+      "role": "International Arts",
+      "text": "An elegant performance that perfectly balanced athleticism with emotion."
+    },
+
+    "showProducer": {
+      "name": "Show Producer",
+      "role": "Touring Production",
+      "text": "Professional in every aspect. Their attention to detail is remarkable."
+    },
+
+    "brandManager": {
+      "name": "Luxury Brand Manager",
+      "role": "Corporate Gala",
+      "text": "The perfect entertainment choice for a premium audience."
+    },
+
+    "entertainmentSupervisor": {
+      "name": "Entertainment Supervisor",
+      "role": "Cruise Line",
+      "text": "One of the most polished acts we've featured onboard."
+    },
+
+    "eventHost": {
+      "name": "Event Host",
+      "role": "Exclusive Reception",
+      "text": "Every guest was captivated from beginning to end."
+    },
+
+    "artisticDirector": {
+      "name": "Artistic Director",
+      "role": "Performance Company",
+      "text": "Graceful, elegant and technically outstanding. A joy to watch."
+    },
+
+    "productionCoordinator": {
+      "name": "Production Coordinator",
+      "role": "Stage Events",
+      "text": "Communication was seamless and the performance was even better than expected."
+    },
+
+    "corporateProducer": {
+      "name": "Corporate Producer",
+      "role": "Annual Gala",
+      "text": "An exceptional duo that brought sophistication and excitement to our event."
+    },
+
+    "venueOwner": {
+      "name": "Luxury Venue Owner",
+      "role": "Private Events",
+      "text": "Every detail reflected experience and professionalism."
+    },
+
+    "internationalBooker": {
+      "name": "International Booker",
+      "role": "Talent Agency",
+      "text": "Working with ArtAle is always effortless. They consistently impress audiences worldwide."
+    },
+
+    "entertainmentManager": {
+      "name": "Entertainment Manager",
+      "role": "Resort",
+      "text": "Beautiful choreography, elegant costumes and outstanding execution."
+    },
+
+    "eventDesigner": {
+      "name": "Event Designer",
+      "role": "Luxury Weddings",
+      "text": "The perfect artistic addition to a sophisticated celebration."
+    },
+
+    "cruiseManager": {
+      "name": "Cruise Entertainment Manager",
+      "role": "Cruise Line",
+      "text": "Guests returned specifically to watch the performance again."
+    },
+
+    "executiveProducer": {
+      "name": "Executive Producer",
+      "role": "Live Entertainment",
+      "text": "A memorable act with emotional storytelling and breathtaking technique."
+    },
+
+    "performanceCurator": {
+      "name": "Performance Curator",
+      "role": "International Events",
+      "text": "ArtAle consistently delivers performances that exceed expectations and leave lasting impressions."
+    },
+
+    "vipClient": {
+      "name": "VIP Client",
+      "role": "Private Celebration",
+      "text": "Absolutely unforgettable. Elegant, emotional and beautifully performed from beginning to end."
+    }
+  }
+   }
+  }
+  

@@ -1,0 +1,565 @@
+{
+  "Header": {
+  "home": "Domov",
+  "about": "O nás",
+  "shows": "Predstavenia",
+  "gallery": "Galéria",
+  "videos": "Videá",
+  "contact": "Kontakt",
+  "book": "Rezervovať"
+},
+  "Hero": {
+    "international": "Medzinárodné",
+    "circusDuo": "Cirkusové duo",
+    "description": "Elegantné vzdušné vystúpenia, dych vyrážajúca akrobacia a nezabudnuteľné produkcie pre výletné lode, divadlá, luxusné rezorty a medzinárodné podujatia.",
+    "book": "Rezervovať vystúpenie",
+    "explore": "Naše predstavenia"
+  },
+  "About": {
+  "experience": "Rokov skúseností",
+  "countries": "Krajín",
+  "performances": "Vystúpení",
+  "section": "O nás",
+  "intro": "Multidisciplinárne cirkusové duo špecializujúce sa na vzdušnú akrobaciu a akrobatické vystúpenia pre výletné lode, luxusné rezorty, divadlá a exkluzívne podujatia.",
+  "paragraph1": "Vytvárame elegantné vzdušné vystúpenia spájajúce silu, umenie a emócie.",
+  "paragraph2": "Naše predstavenia boli uvedené na výletných lodiach, v luxusných hoteloch, divadlách a na medzinárodných scénach po celej Európe aj mimo nej.",
+  "paragraph3": "Každé vystúpenie individuálne prispôsobujeme priestoru, publiku a formátu podujatia."
+},
+"Shows": {
+  "title": "Naše",
+  "titleAccent": "Vystúpenia",
+  "description": "Vyberte si formát vystúpenia, ktorý najlepšie zodpovedá vášmu priestoru, publiku a podujatiu.",
+
+  "acts": {
+    "title": "Cirkusové čísla",
+    "description": "Objavte našu kolekciu profesionálnych cirkusových čísel vrátane aerial hoop, aerial silk, hand-to-hand akrobacie, cube, aerial straps a ďalších jedinečných vystúpení pre podujatia všetkých veľkostí."
+  },
+
+  "fullShows": {
+    "title": "Celovečerné predstavenia",
+    "description": "Objavte naše autorské 45-minútové predstavenia, ktoré spájajú vzdušnú akrobaciu, párovú akrobaciu, tanec a divadelný príbeh."
+  },
+
+  "events": {
+    "title": "Špeciálne podujatia",
+    "description": "Exkluzívne vystúpenia pre luxusné hotely, firemné podujatia, festivaly a súkromné oslavy, prispôsobené vašej udalosti."
+  },
+
+  "learnMore": "Zistiť viac"
+},
+"Gallery": {
+  "subtitle": "Galéria",
+  "title": "Okamihy",
+  "titleAccent": "Na Javisku"
+},
+"Videos": {
+  "subtitle": "Videá",
+  "title": "Pozrite si",
+  "titleAccent": "Naše Vystúpenia",
+  "description": "Profesionálne videá z výletných lodí, divadiel a medzinárodných podujatí.",
+
+  "showreel": "Showreel 2026",
+  "onceAlways": "Once and Always – 45 min",
+  "welcoming": "Uvítanie hostí, Go-Go tanečníci, Party Artists a animácia na chodúľoch"
+},
+"Clients": {
+  "subtitle": "Dôverujú nám po celom svete",
+  "title": "Naši",
+  "titleAccent": "Klienti",
+  "description": "Vystupovali sme na medzinárodných výletných lodiach, v luxusných rezortoch a na prestížnych podujatiach po celom svete.",
+
+  "luxury": "Luxusné",
+  "hotels": "Hotely",
+
+  "corporate": "Firemné",
+  "events": "Podujatia",
+
+  "international": "Medzinárodné",
+  "festivals": "Festivaly"
+},
+
+"FAQ": {
+  "header": {
+  "subtitle": "FAQ",
+  "title": "<faq>Č</faq>asto <faq>K</faq>ladené <faq>O</faq>tázky",
+  "description": "Všetko, na čo sa organizátori zvyčajne pýtajú pred rezerváciou."
+},
+  "items": {
+    "duration": {
+      "q": "Aké typy vystúpení ponúkate?",
+      "a": "Ponúkame profesionálne cirkusové čísla a kompletné predstavenia v trvaní od 5 do 45 minút."
+    },
+
+    "custom": {
+      "q": "Je možné prispôsobiť vystúpenie nášmu podujatiu?",
+      "a": "Áno. Dĺžku vystúpenia, hudbu, kostýmy aj štýl vieme prispôsobiť vašim požiadavkám."
+    },
+
+    "technical": {
+      "q": "Aké sú technické požiadavky?",
+      "a": "Technické požiadavky závisia od konkrétneho čísla. Kompletný technický rider poskytujeme po potvrdení rezervácie."
+    },
+
+    "equipment": {
+      "q": "Vyžadujú vystúpenia špeciálne vybavenie?",
+      "a": "Niektoré vzdušné čísla vyžadujú závesné body alebo špecifické podmienky javiska. Všetky technické detaily riešime vopred s organizátorom."
+    },
+
+    "setup": {
+      "q": "Koľko času potrebujete na prípravu?",
+      "a": "Príprava zvyčajne trvá 30 až 90 minút vrátane inštalácie vybavenia a technickej skúšky."
+    },
+
+    "experience": {
+      "q": "Máte skúsenosti s medzinárodnými vystúpeniami?",
+      "a": "Áno. Dlhodobo vystupujeme na výletných lodiach, v divadlách, luxusných hoteloch a na prestížnych podujatiach po celom svete."
+    },
+
+    "cost": {
+      "q": "Koľko stojí vystúpenie?",
+      "a": "Cena závisí od typu podujatia, miesta konania, dĺžky vystúpenia a technických požiadaviek. Kontaktujte nás pre individuálnu cenovú ponuku."
+    },
+
+    "outdoors": {
+      "q": "Môžete vystupovať aj vonku?",
+      "a": "Áno, pokiaľ počasie a miesto spĺňajú všetky bezpečnostné a technické požiadavky."
+    }
+  }
+},
+"Footer": {
+  "tagline": "",
+  "about": "O nás",
+  "shows": "Predstavenia",
+  "gallery": "Galéria",
+  "contact": "Kontakt",
+  "copyright": "Všetky práva vyhradené."
+},
+"Phones": {
+  "ukraine": "Ukrajina",
+  "slovakia": "Slovensko"
+},
+"Contacts": {
+  "email": "E-mail",
+  "telegram": "Telegram",
+  "whatsapp": "WhatsApp",
+  "viber": "Viber"
+},
+"Act": {
+  "about": "O",
+  "act": "čísle"
+},
+"Acts": {
+  "learnMore": "Viac informácií"
+},
+"ActsPage": {
+  "title": "Samostatné",
+  "titleHighlight": "Vystúpenia",
+  "description": "Veľkolepé cirkusové vystúpenia pre divadlá, výletné lode, galavečery, luxusné rezorty a medzinárodné podujatia.",
+  "backToShows": "Späť na domovskú stránku",
+  "fullShows": "Celovečerné predstavenia",
+  "corporateEvents": "Firemné podujatia"
+},
+"ShowTechnical": {
+  "subtitle": "Technické údaje",
+  "title": "Technické informácie",
+  "duration": "Trvanie",
+  "performers": "Účinkujúci",
+  "technicalRequirements": "Technické požiadavky"
+},
+"ActVideo": {
+  "title": "Pozrite si vystúpenie",
+  "description": "Zažite vystúpenie v pohybe.",
+  "iframeTitle": "Video vystúpenia"
+},
+"BookAct": {
+  "subtitle": "Dostupné po celom svete",
+  "title": "Máte záujem objednať si",
+  "description": "Vystupujeme v divadlách, na výletných lodiach, festivaloch, galavečeroch, televíznych produkciách a firemných podujatiach po celom svete.",
+  "allActs": "Všetky vystúpenia",
+  "bookThisAct": "Objednať vystúpenie",
+  "nextAct": "Ďalšie vystúpenie"
+},
+"TechnicalInfo": {
+  "title": "Technické",
+  "titleHighlight": "informácie",
+  "description": "Nižšie sú uvedené štandardné technické požiadavky pre toto vystúpenie.",
+  "duration": "Trvanie",
+  "height": "Výška",
+  "music": "Hudba",
+  "technicalRequirements": "Technické požiadavky"
+},
+"BackButton": {
+  "back": "Späť"
+},
+"BookShow": {
+  "subtitle": "Dostupné po celom svete",
+  "title": "Rezervovať",
+  "description": "Dostupné pre divadlá, výletné lode, festivaly, firemné podujatia, luxusné produkcie a exkluzívnu zábavu po celom svete.",
+  "allShows": "Všetky predstavenia",
+  "contactUs": "Kontaktujte nás"
+},
+"ShowCard": {
+  "category": "Celovečerné predstavenie",
+  "learnMore": "Viac informácií"
+},
+"ShowHero": {
+  "backToShows": "Späť na predstavenia",
+  "promoVideo": "Propagačné video"
+},
+"ShowVideo": {
+  "title": "Pozrite si trailer",
+  "description": "Zažite predstavenie v pohybe.",
+  "iframeTitle": "Trailer predstavenia"
+},
+"ShowsPage": {
+  "title": "Celovečerné 45-minútové",
+  "titleHighlight": "Predstavenia",
+  "description": "Dve kompletné produkcie vytvorené pre divadlá, výletné lode, festivaly a luxusné podujatia.",
+  "backToHome": "Späť na domovskú stránku",
+  "individualActs": "Samostatné vystúpenia",
+  "specialEvents": "Špeciálne podujatia"
+},
+"ContactForm": {
+  "title": "Odoslať žiadosť o rezerváciu",
+  "name": "Vaše meno",
+  "email": "E-mail",
+  "message": "Povedzte nám o vašom podujatí...",
+
+  "button": {
+    "send": "Odoslať žiadosť",
+    "sending": "Odosielanie..."
+  },
+
+  "alerts": {
+    "success": "Vaša správa bola úspešne odoslaná! Čoskoro vás budeme kontaktovať.",
+    "error": "Niečo sa pokazilo. Skúste to prosím znova neskôr."
+  }
+},
+"ContactHero": {
+  "subtitle": "Rezervácie po celom svete",
+  "title": "Vytvorme",
+  "titleHighlight": "niečo výnimočné",
+  "description": "Dostupní pre divadlá, výletné lode, festivaly, firemné podujatia a luxusné produkcie po celom svete."
+},
+"ContactInfo": {
+  "email": "E-mail",
+  "phone": "Telefón",
+  "facebook": "Facebook",
+  "instagram": "Instagram",
+  "location": "Lokalita",
+  "locationValue": "Európa • Celý svet"
+},
+"SocialLinks": {
+  "subtitle": "ZOSTAŇTE V KONTAKTE",
+  "title": "Sledujte Duo",
+  "titleHighlight": "ArtAle",
+  "description": "Sledujte naše vystúpenia, zákulisné momenty a nové predstavenia."
+},
+"ActHero": {
+  "back": "Späť na samostatné vystúpenia",
+  "watchVideo": "Pozrieť video"
+},
+"BookEvent": {
+  "subtitle": "Dostupné po celom svete",
+  "title": "Máte záujem rezervovať",
+  "description": "Vytvárame nezabudnuteľnú zábavu pre firemné podujatia, luxusné svadby, galavečery, festivaly a exkluzívne súkromné oslavy po celom svete.",
+  "allEvents": "Všetky podujatia",
+  "bookEvent": "Rezervovať toto vystúpenie"
+},
+"EventCard": {
+  "learnMore": "Zistiť viac"
+},
+"EventHero": {
+  "back": "Späť na podujatia",
+  "watchVideo": "Pozrieť video"
+},
+"EventsHero": {
+  "title": "Špeciálne",
+  "titleHighlight": "Podujatia",
+  "description": "Elegantná cirkusová zábava pre firemné podujatia, galavečery, luxusné rezorty, svadby, súkromné oslavy a medzinárodné podujatia.",
+  "backToShows": "Späť na predstavenia",
+  "fullShows": "Celovečerné predstavenia",
+  "individualActs": "Samostatné vystúpenia"
+},
+"validation": {
+  "nameMin": "Zadajte aspoň 2 znaky.",
+  "nameMax": "Meno je príliš dlhé.",
+  "nameNumbers": "Meno nemôže obsahovať iba čísla.",
+  "emailInvalid": "Zadajte platnú e-mailovú adresu.",
+  "phoneInvalid": "Zadajte platné telefónne číslo.",
+  "messageMin": "Správa musí obsahovať aspoň 20 znakov.",
+  "messageMax": "Správa je príliš dlhá."
+},
+  "Contact": {
+  "subtitle": "Kontakt",
+  "title": "Rezervovať",
+  "description": "Radi s vami prediskutujeme vaše podujatie a pripravíme nezabudnuteľné vystúpenie.",
+
+  "name": "Vaše meno",
+  "email": "E-mailová adresa",
+  "phone": "Telefón (voliteľné)",
+  "company": "Spoločnosť (voliteľné)",
+  "message": "Povedzte nám viac o vašom podujatí...",
+
+  "button": {
+    "send": "Odoslať",
+    "sending": "Odosiela sa..."
+  },
+
+  "alerts": {
+    "required": "Vyplňte prosím všetky povinné polia.",
+    "success": "Vaša správa bola úspešne odoslaná. Čoskoro vás budeme kontaktovať.",
+    "error": "Nastala chyba. Skúste to prosím znova neskôr."
+    }
+},
+  "Testimonials": {
+  "header": {
+    "subtitle": "Referencie",
+    "title": "Čo hovoria",
+    "titleAccent": "naši klienti",
+    "description": "Spätná väzba od klientov, organizátorov, výletných spoločností a prestížnych podujatí z celého sveta."
+    
+  },
+
+  "items": {
+    "hotelManager": {
+      "name": "Manažér luxusného hotela",
+      "role": "Hotelierstvo",
+      "text": "Elegantné, emotívne a technicky bezchybné vystúpenie. Naši hostia boli nadšení už od prvej minúty."
+    },
+
+    "cruiseDirector": {
+      "name": "Riaditeľ plavby",
+      "role": "Zábava na výletnej lodi",
+      "text": "Profesionálni umelci s neuveriteľnou chémiou na javisku. Spolupráca bola jednoduchá a publikum si užilo každú sekundu."
+    },
+
+    "festivalOrganizer": {
+      "name": "Organizátor festivalu",
+      "role": "Medzinárodný festival",
+      "text": "Krásna kombinácia sily, umenia a príbehu, ktorá dokonale zapadla do atmosféry nášho podujatia."
+    },
+
+    "corporatePlanner": {
+      "name": "Organizátor firemných podujatí",
+      "role": "Firemné akcie",
+      "text": "ArtAle priniesli skutočne prémiový zážitok. Komunikácia bola výborná a vystúpenie prekonalo všetky očakávania."
+    },
+
+    "weddingPlanner": {
+      "name": "Svadobný organizátor",
+      "role": "Luxusné svadby",
+      "text": "Úchvatné vystúpenie, ktoré sa stalo vrcholom celého večera. Hostia o ňom hovoria dodnes."
+    },
+
+    "producer": {
+      "name": "Producent predstavení",
+      "role": "Javiskové produkcie",
+      "text": "Spoľahliví, presní a mimoriadne talentovaní umelci. Každá skúška aj každé vystúpenie boli dokonalé."
+    },
+
+    "creativeDirector": {
+      "name": "Kreatívny riaditeľ",
+      "role": "Živá zábava",
+      "text": "Ich umelecká vízia a precíznosť urobili vystúpenie nezabudnuteľným. Skutoční umelci svetovej úrovne."
+    },
+
+    "privateClient": {
+      "name": "Súkromný klient",
+      "role": "Exkluzívne podujatie",
+      "text": "Elegancia a emócie, ktoré priniesli na našu oslavu, vytvorili spomienky na celý život."
+    },
+
+    "resortManager": {
+      "name": "Manažér zábavy rezortu",
+      "role": "Luxusný rezort",
+      "text": "Hostia odmeňovali vystúpenie standing ovation každý večer. Na našom javisku vyzeralo úžasne."
+    },
+
+    "showDirector": {
+      "name": "Režisér predstavenia",
+      "role": "Medzinárodná produkcia",
+      "text": "Výnimočné duo s perfektným načasovaním, nádhernou choreografiou a skvelým javiskovým prejavom."
+    },
+
+    "venueManager": {
+      "name": "Manažér koncertnej sály",
+      "role": "Koncertná hala",
+      "text": "Profesionáli od začiatku až do konca. Príprava prebehla hladko a vystúpenie získalo fantastické ohlasy."
+    },
+
+    "eventProducer": {
+      "name": "Producent podujatí",
+      "role": "Prémiové podujatia",
+      "text": "Nádherné kostýmy, elegantný pohyb a silné spojenie s publikom urobili toto vystúpenie nezabudnuteľným."
+    },
+
+    "artisticCoordinator": {
+      "name": "Umelecký koordinátor",
+      "role": "Divadlo",
+      "text": "Vzácna kombinácia technickej dokonalosti a úprimných emócií. Každý pohyb mal svoj význam."
+    },
+
+    "luxuryOrganizer": {
+      "name": "Organizátor luxusných podujatí",
+      "role": "Súkromný galavečer",
+      "text": "Naši hostia označili vystúpenie za magické. Lepšiu show sme si nemohli priať."
+    },
+
+    "corporateClient": {
+      "name": "Firemný klient",
+      "role": "Medzinárodná spoločnosť",
+      "text": "Ich profesionalita urobila plánovanie neuveriteľne jednoduchým. Všetko bolo presne podľa dohody."
+    },
+
+    "consultant": {
+      "name": "Konzultant pre zábavu",
+      "role": "Eventová agentúra",
+      "text": "Jedno z najlepších akrobatických duet, aké sme za posledné roky rezervovali."
+    },
+
+    "performanceProducer": {
+      "name": "Producent vystúpení",
+      "role": "Javiskové podujatia",
+      "text": "Pútavá show plná elegancie, atletickosti a emócií. Publikum reagovalo neutíchajúcim potleskom."
+    },
+
+    "eventCoordinator": {
+      "name": "Koordinátor podujatia",
+      "role": "Luxusná značka",
+      "text": "Od komunikácie až po finálne vystúpenie bolo všetko zvládnuté na najvyššej profesionálnej úrovni."
+    },
+
+    "theatreProducer": {
+      "name": "Divadelný producent",
+      "role": "Živé predstavenia",
+      "text": "Vizuálne úchvatné číslo s bezchybným prevedením a nádherným príbehom."
+    },
+
+    "bookingManager": {
+      "name": "Booking manažér",
+      "role": "Medzinárodná agentúra",
+      "text": "Vždy presní, spoľahliví a neustále prinášajú výnimočné vystúpenia."
+    }    ,
+    "galaOrganizer": {
+      "name": "Organizátor galavečera",
+      "role": "Charitatívne podujatie",
+      "text": "Toto vystúpenie pozdvihlo celý večer a vytvorilo nezabudnuteľnú atmosféru."
+    },
+
+    "resortDirector": {
+      "name": "Riaditeľ luxusného rezortu",
+      "role": "Hotelierstvo",
+      "text": "Hostia opakovane označovali ArtAle za vrchol svojho pobytu."
+    },
+
+    "creativeProducer": {
+      "name": "Kreatívny producent",
+      "role": "Zábavný priemysel",
+      "text": "Nádherný javiskový prejav v kombinácii s akrobatickou technikou svetovej úrovne."
+    },
+
+    "privateHost": {
+      "name": "Hostiteľ súkromného podujatia",
+      "role": "VIP oslava",
+      "text": "Naša rodina a priatelia zostali bez slov. Bolo to jednoducho veľkolepé."
+    },
+
+    "festivalDirector": {
+      "name": "Riaditeľ festivalu",
+      "role": "Medzinárodné umelecké podujatie",
+      "text": "Elegantné vystúpenie, ktoré dokonale spojilo atletickosť s emóciami."
+    },
+
+    "showProducer": {
+      "name": "Producent predstavenia",
+      "role": "Putovná produkcia",
+      "text": "Profesionálny prístup vo všetkých smeroch. Ich zmysel pre detail je obdivuhodný."
+    },
+
+    "brandManager": {
+      "name": "Manažér luxusnej značky",
+      "role": "Firemný galavečer",
+      "text": "Dokonalá voľba zábavy pre náročné publikum."
+    },
+
+    "entertainmentSupervisor": {
+      "name": "Vedúci zábavného programu",
+      "role": "Výletná spoločnosť",
+      "text": "Jedno z najlepšie pripravených vystúpení, aké sme kedy mali na palube."
+    },
+
+    "eventHost": {
+      "name": "Moderátor podujatia",
+      "role": "Exkluzívna recepcia",
+      "text": "Každý hosť bol očarený od začiatku až do konca."
+    },
+
+    "artisticDirector": {
+      "name": "Umelecký riaditeľ",
+      "role": "Divadelná spoločnosť",
+      "text": "Elegantné, pôsobivé a technicky výnimočné. Radosť sledovať."
+    },
+
+    "productionCoordinator": {
+      "name": "Koordinátor produkcie",
+      "role": "Javiskové podujatia",
+      "text": "Komunikácia bola bezproblémová a vystúpenie bolo ešte lepšie, než sme očakávali."
+    },
+
+    "corporateProducer": {
+      "name": "Firemný producent",
+      "role": "Výročný galavečer",
+      "text": "Výnimočné duo, ktoré prinieslo nášmu podujatiu eleganciu aj energiu."
+    },
+
+    "venueOwner": {
+      "name": "Majiteľ luxusného priestoru",
+      "role": "Súkromné podujatia",
+      "text": "Každý detail odrážal skúsenosti a skutočný profesionalizmus."
+    },
+
+    "internationalBooker": {
+      "name": "Medzinárodný booking manažér",
+      "role": "Talentová agentúra",
+      "text": "Spolupráca s ArtAle je vždy jednoduchá. Neustále ohurujú publikum po celom svete."
+    },
+
+    "entertainmentManager": {
+      "name": "Manažér zábavy",
+      "role": "Rezort",
+      "text": "Krásna choreografia, elegantné kostýmy a bezchybné prevedenie."
+    },
+
+    "eventDesigner": {
+      "name": "Dizajnér podujatí",
+      "role": "Luxusné svadby",
+      "text": "Dokonalý umelecký doplnok k elegantnej oslave."
+    },
+
+    "cruiseManager": {
+      "name": "Manažér zábavy na výletnej lodi",
+      "role": "Výletná spoločnosť",
+      "text": "Hostia sa vracali špeciálne preto, aby si vystúpenie pozreli ešte raz."
+    },
+
+    "executiveProducer": {
+      "name": "Výkonný producent",
+      "role": "Živá zábava",
+      "text": "Nezabudnuteľné vystúpenie s emotívnym príbehom a dychberúcou technikou."
+    },
+
+    "performanceCurator": {
+      "name": "Kurátor umeleckého programu",
+      "role": "Medzinárodné podujatia",
+      "text": "ArtAle pravidelne prináša vystúpenia, ktoré prekonávajú očakávania a zanechávajú trvalý dojem."
+    },
+
+    "vipClient": {
+      "name": "VIP klient",
+      "role": "Súkromná oslava",
+      "text": "Absolútne nezabudnuteľné. Elegantné, emotívne a nádherne prevedené od začiatku až do konca."
+    }
+  }
+}
+}
