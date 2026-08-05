@@ -94,7 +94,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://duoartale.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "ArtAle International Circus Duo",
