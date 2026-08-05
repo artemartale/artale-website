@@ -103,15 +103,12 @@ export const metadata: Metadata = {
   },
 
   twitter: {
-    card: "summary_large_image",
-
-    title: "ArtAle | International Circus Duo",
-
-    description:
-      "Professional international circus duo performing hand-to-hand acrobatics, aerial acts and premium entertainment worldwide.",
-
-    images: ["/og-image.jpg"],
-  },
+  card: "summary_large_image",
+  title: "ArtAle | International Circus Duo",
+  description:
+    "Professional international circus duo performing hand-to-hand acrobatics, aerial acts and premium entertainment worldwide.",
+  images: ["https://duoartale.com/og-image.jpg"],
+},
 
   category: "Entertainment",
 };
