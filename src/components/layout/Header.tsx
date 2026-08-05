@@ -5,8 +5,8 @@ import Logo from "@/components/header/Logo";
 import DesktopNavigation from "@/components/header/DesktopNavigation";
 import PhoneDropdown from "@/components/header/PhoneDropdown";
 import ContactDropdown from "@/components/header/ContactDropdown";
-import { Menu } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import { Menu, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -98,6 +98,45 @@ export default function Header() {
   {item.label}
 </Link>
                 ))}
+                <div className="mt-2 border-t border-white/10 pt-6">
+  <div className="flex items-center justify-center gap-8">
+    <a
+      href="https://instagram.com/artem_artale"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Instagram"
+      className="transition hover:text-pink-500"
+    >
+      <SiInstagram className="h-7 w-7" />
+    </a>
+
+    <a
+      href="mailto:artem.benefis@gmail.com"
+      aria-label="Email"
+      className="transition hover:text-red-500"
+    >
+      <Mail className="h-7 w-7" />
+    </a>
+
+    <a
+      href="tel:+421944230778"
+      aria-label="Phone"
+      className="transition hover:text-red-500"
+    >
+      <Phone className="h-7 w-7" />
+    </a>
+  </div>
+</div>
+
+<Link href="/contact">
+  <Button className="mt-6 rounded-xl bg-red-600 hover:bg-red-700">
+    {t("book")}
+  </Button>
+</Link>
+
+<div className="mt-2 border-t border-white/10 pt-6">
+  <LanguageDropdown />
+</div>
                 <div className="mt-6">
   <LanguageDropdown />
 </div>

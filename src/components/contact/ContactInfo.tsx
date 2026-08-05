@@ -29,14 +29,14 @@ export default function ContactInfo() {
         <ContactCard
           icon={<FaFacebookF size={20} />}
           title={t("facebook")}
-          value="Duo ArtAle"
+          value=""
           href="https://facebook.com/duoartale"
         />
 
         <ContactCard
           icon={<FaInstagram size={22} />}
           title={t("instagram")}
-          value="@duoartale"
+          value=""
           href="https://instagram.com/artem_artale"
         />
 

@@ -33,21 +33,21 @@ export default function SocialLinks() {
           href="https://instagram.com/artem_artale"
           icon={<FaInstagram size={22} />}
           title="Instagram"
-          subtitle="@duoartale"
+          subtitle=""
         />
 
         <SocialCard
           href="https://youtube.com/@acroduoartale"
           icon={<FaYoutube size={22} />}
           title="YouTube"
-          subtitle="Duo ArtAle"
+          subtitle=""
         />
 
         <SocialCard
           href="https://facebook.com/duoartale"
           icon={<FaFacebookF size={20} />}
           title="Facebook"
-          subtitle="Duo ArtAle"
+          subtitle=""
         />
       </div>
     </section>
