@@ -45,19 +45,33 @@ export async function generateMetadata({
     },
 
     openGraph: {
-      title: "ArtAle | International Circus Duo",
-      description: descriptions[locale as keyof typeof descriptions],
-      url: `https://duoartale.com/${locale}`,
-      siteName: "ArtAle",
-      locale,
-      type: "website",
+  title: "ArtAle | International Circus Duo",
+  description: descriptions[locale as keyof typeof descriptions],
+  url: `https://duoartale.com/${locale}`,
+  siteName: "ArtAle",
+  locale:
+    locale === "uk"
+      ? "uk_UA"
+      : locale === "sk"
+      ? "sk_SK"
+      : "en_US",
+  type: "website",
+  images: [
+    {
+      url: "https://duoartale.com/og-image.jpg",
+      width: 1200,
+      height: 630,
+      alt: "ArtAle International Circus Duo",
     },
+  ],
+},
 
     twitter: {
-      card: "summary_large_image",
-      title: "ArtAle | International Circus Duo",
-      description: descriptions[locale as keyof typeof descriptions],
-    },
+  card: "summary_large_image",
+  title: "ArtAle | International Circus Duo",
+  description: descriptions[locale as keyof typeof descriptions],
+  images: ["https://duoartale.com/og-image.jpg"],
+},
   };
 }
 
