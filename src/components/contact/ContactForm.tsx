@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-
+import { Turnstile } from "@marsidev/react-turnstile";
 import {
   contactShortSchema,
   type ContactShortFormData,
@@ -15,7 +15,8 @@ export default function ContactForm() {
   const validation = useTranslations("validation");
 
   const [loading, setLoading] = useState(false);
-
+  const [turnstileToken, setTurnstileToken] =
+  useState("");
   const [status, setStatus] = useState<
     "success" | "error" | null
   >(null);
@@ -56,12 +57,13 @@ export default function ContactForm() {
               "application/json",
           },
           body: JSON.stringify({
-            name: form.name,
-            email: form.email,
-            phone: "",
-            company: "",
-            message: form.message,
-          }),
+  name: form.name,
+  email: form.email,
+  phone: "",
+  company: "",
+  message: form.message,
+  turnstileToken,
+}),
         }
       );
 
@@ -166,9 +168,24 @@ export default function ContactForm() {
             )}
           </div>
 
+          <div className="flex justify-center">
+  <Turnstile
+    siteKey={
+      process.env
+        .NEXT_PUBLIC_TURNSTILE_SITE_KEY!
+    }
+    onSuccess={(token) =>
+      setTurnstileToken(token)
+    }
+    options={{
+      theme: "dark",
+    }}
+  />
+</div>
+
           <button
             type="submit"
-            disabled={loading}
+            disabled={loading || !turnstileToken}
             aria-disabled={loading}
             aria-busy={loading}
             className="inline-flex min-w-[180px] items-center justify-center rounded-full bg-red-600 px-6 py-3 text-sm font-semibold transition-colors hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-70"

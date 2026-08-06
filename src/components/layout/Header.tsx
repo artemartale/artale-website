@@ -20,7 +20,7 @@ import { useTranslations } from "next-intl";
 
 
 const navItems = [
-  { label: "Home", href: "/" },
+  { label: "Home", href: "/#hero" },
   { label: "About", href: "/#about" },
   { label: "Shows", href: "/#shows" },
   { label: "Gallery", href: "/#gallery" },

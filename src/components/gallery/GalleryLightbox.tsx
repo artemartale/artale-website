@@ -149,12 +149,16 @@ export default function GalleryLightbox({
             className="
                         group
                         absolute
-                        right-8
-                        top-8
+                        right-4
+                        top-4
+                        md:right-8
+                        md:top-8
                         z-[120]
                         flex
-                        h-14
-                        w-14
+                        h-10
+                        w-10
+                        md:h-14
+                        md:w-14
                         items-center
                         justify-center
                         rounded-full
@@ -170,19 +174,22 @@ export default function GalleryLightbox({
                         hover:bg-black/75
                         hover:shadow-[0_0_30px_rgba(239,68,68,0.30)]
                         "
-          >
-            <X
-                size={34}
-                strokeWidth={2.5}
-                className="
-                  pointer-events-none
-                  text-red-500
-                  transition-all
-                  duration-300
-                  group-hover:rotate-90
-                  group-hover:text-red-400
-                "
-              />
+                         >
+                                <X
+                      strokeWidth={2.5}
+                      className="
+                        pointer-events-none
+                        h-5
+                        w-5
+                        md:h-[34px]
+                        md:w-[34px]
+                        text-red-500
+                        transition-all
+                        duration-300
+                        group-hover:rotate-90
+                        group-hover:text-red-400
+                      "
+                    />
           </button>
 
           <button
@@ -191,43 +198,49 @@ export default function GalleryLightbox({
               showPreviousImage();
             }}
             className="
-                        group
-                        absolute
-                        left-8
-                        top-1/2
-                        z-[120]
-                        flex
-                        h-20
-                        w-20
-                        -translate-y-1/2
-                        items-center
-                        justify-center
-                        rounded-full
-                        border
-                        border-red-500/40
-                        bg-black/55
-                        backdrop-blur-md
-                        shadow-[0_0_25px_rgba(239,68,68,0.12)]
-                        transition-all
-                        duration-300
-                        hover:scale-105
-                        hover:border-red-500
-                        hover:bg-black/75
-                        hover:shadow-[0_0_35px_rgba(239,68,68,0.30)]
-                        "
+group
+absolute
+left-3
+md:left-8
+top-1/2
+z-[120]
+flex
+h-11
+w-11
+md:h-20
+md:w-20
+-translate-y-1/2
+items-center
+justify-center
+rounded-full
+border
+border-red-500/40
+bg-black/55
+backdrop-blur-md
+shadow-[0_0_25px_rgba(239,68,68,0.12)]
+transition-all
+duration-300
+hover:scale-105
+hover:border-red-500
+hover:bg-black/75
+hover:shadow-[0_0_35px_rgba(239,68,68,0.30)]
+"
           >
            <ChevronLeft
-                        size={58}
-                        strokeWidth={2.5}
-                        className="
-                          pointer-events-none
-                          text-red-500
-                          transition-all
-                          duration-300
-                          group-hover:scale-110
-                          group-hover:text-red-400
-                        "
-                      />
+  strokeWidth={2.5}
+  className="
+    pointer-events-none
+    h-6
+    w-6
+    md:h-[58px]
+    md:w-[58px]
+    text-red-500
+    transition-all
+    duration-300
+    group-hover:scale-110
+    group-hover:text-red-400
+  "
+/>
           </button>
 
           <button
@@ -236,43 +249,49 @@ export default function GalleryLightbox({
               showNextImage();
             }}
             className="
-                        group
-                        absolute
-                        right-8
-                        top-1/2
-                        z-[120]
-                        flex
-                        h-20
-                        w-20
-                        -translate-y-1/2
-                        items-center
-                        justify-center
-                        rounded-full
-                        border
-                        border-red-500/40
-                        bg-black/55
-                        backdrop-blur-md
-                        shadow-[0_0_25px_rgba(239,68,68,0.12)]
-                        transition-all
-                        duration-300
-                        hover:scale-105
-                        hover:border-red-500
-                        hover:bg-black/75
-                        hover:shadow-[0_0_35px_rgba(239,68,68,0.30)]
-                        "
+group
+absolute
+right-3
+md:right-8
+top-1/2
+z-[120]
+flex
+h-11
+w-11
+md:h-20
+md:w-20
+-translate-y-1/2
+items-center
+justify-center
+rounded-full
+border
+border-red-500/40
+bg-black/55
+backdrop-blur-md
+shadow-[0_0_25px_rgba(239,68,68,0.12)]
+transition-all
+duration-300
+hover:scale-105
+hover:border-red-500
+hover:bg-black/75
+hover:shadow-[0_0_35px_rgba(239,68,68,0.30)]
+"
           >
             <ChevronRight
-                          size={58}
-                          strokeWidth={2.5}
-                          className="
-                            pointer-events-none
-                            text-red-500
-                            transition-all
-                            duration-300
-                            group-hover:scale-110
-                            group-hover:text-red-400
-                          "
-                        />
+  strokeWidth={2.5}
+  className="
+    pointer-events-none
+    h-6
+    w-6
+    md:h-[58px]
+    md:w-[58px]
+    text-red-500
+    transition-all
+    duration-300
+    group-hover:scale-110
+    group-hover:text-red-400
+  "
+/>
           </button>
 
          <AnimatePresence
@@ -350,22 +369,27 @@ export default function GalleryLightbox({
 
           <div
   className="
-    absolute
-    bottom-10
-    left-1/2
-    -translate-x-1/2
-    rounded-full
-    border
-    border-red-700
-    bg-red-500
-    px-5
-    py-2
-    text-sm
-    font-bold
-    tracking-[0.2em]
-    text-black
-    shadow-[0_0_20px_rgba(239,68,68,0.35)]
-  "
+  absolute
+  bottom-6
+  md:bottom-10
+  left-1/2
+  -translate-x-1/2
+  rounded-full
+  border
+  border-red-700
+  bg-red-500
+  px-4
+  py-1.5
+  md:px-5
+  md:py-2
+  text-xs
+  md:text-sm
+  font-bold
+  tracking-[0.15em]
+  md:tracking-[0.2em]
+  text-black
+  shadow-[0_0_20px_rgba(239,68,68,0.35)]
+"
 >
   {images.indexOf(selectedImage) + 1}
   {" / "}

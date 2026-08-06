@@ -6,7 +6,7 @@ import { Link } from "@/i18n/navigation";
 export default function Logo() {
   return (
     <Link
-      href="/"
+      href="/#hero"
       className="flex items-center gap-3"
     >
       <Image

@@ -77,12 +77,14 @@ export default function Gallery() {
             className="
               group
               absolute
-              left-[-40px]
+              left-2 md:left-[-40px]
               top-1/2
               z-20
               flex
-              h-16
-              w-16
+              h-11
+w-11
+md:h-16
+md:w-16
               -translate-x-1/2
               -translate-y-1/2
               items-center
@@ -100,10 +102,9 @@ export default function Gallery() {
             "
           >
             <ChevronLeft
-              size={42}
-              strokeWidth={2.8}
-              className="text-red-500 transition-all duration-300 group-hover:scale-110 group-hover:text-red-400"
-            />
+  strokeWidth={2.8}
+  className="h-7 w-7 text-red-500 transition-all duration-300 group-hover:scale-110 group-hover:text-red-400 md:h-[42px] md:w-[42px]"
+/>
           </button>
 
           <button
@@ -111,12 +112,14 @@ export default function Gallery() {
             className="
               group
               absolute
-              right-[-40px]
+              right-2 md:right-[-40px]
               top-1/2
               z-20
               flex
-              h-16
-              w-16
+              h-11
+w-11
+md:h-16
+md:w-16
               translate-x-1/2
               -translate-y-1/2
               items-center
@@ -134,10 +137,9 @@ export default function Gallery() {
             "
           >
             <ChevronRight
-              size={42}
-              strokeWidth={2.8}
-              className="text-red-500 transition-all duration-300 group-hover:scale-110 group-hover:text-red-400"
-            />
+  strokeWidth={2.8}
+  className="h-7 w-7 text-red-500 transition-all duration-300 group-hover:scale-110 group-hover:text-red-400 md:h-[42px] md:w-[42px]"
+/>
           </button>
 
           <div className="relative min-h-[650px]">

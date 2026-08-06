@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-
+import { Turnstile } from "@marsidev/react-turnstile";
 import Container from "@/components/ui/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { Input } from "@/components/ui/input";
@@ -21,6 +21,8 @@ export default function Contact() {
   const validation = useTranslations("validation");
 
   const [loading, setLoading] = useState(false);
+  const [turnstileToken, setTurnstileToken] =
+  useState("");
   const [status, setStatus] = useState<"success" | "error" | null>(
     null
   );
@@ -55,7 +57,10 @@ export default function Contact() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+  ...form,
+  turnstileToken,
+}),
       });
 
       if (!response.ok) {
@@ -182,11 +187,26 @@ export default function Contact() {
             )}
           </div>
 
+          <div className="flex justify-center">
+  <Turnstile
+    siteKey={
+      process.env
+        .NEXT_PUBLIC_TURNSTILE_SITE_KEY!
+    }
+    onSuccess={(token) =>
+      setTurnstileToken(token)
+    }
+    options={{
+      theme: "dark",
+    }}
+  />
+</div>
+
           <Button
             type="submit"
             className="w-full"
             size="lg"
-            disabled={loading}
+            disabled={loading || !turnstileToken}
           >
             {loading ? (
               <span className="flex items-center justify-center gap-3">

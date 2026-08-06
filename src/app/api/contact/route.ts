@@ -9,7 +9,55 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
 
-    const parsed = contactSchema.safeParse(body);
+    const {
+      turnstileToken,
+      ...formData
+    } = body;
+
+    if (!turnstileToken) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: "Captcha verification failed",
+        },
+        {
+          status: 400,
+        }
+      );
+    }
+
+    const verify = await fetch(
+      "https://challenges.cloudflare.com/turnstile/v0/siteverify",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type":
+            "application/x-www-form-urlencoded",
+        },
+        body: new URLSearchParams({
+          secret:
+            process.env.TURNSTILE_SECRET_KEY!,
+          response: turnstileToken,
+        }),
+      }
+    );
+
+    const result = await verify.json();
+
+    if (!result.success) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: "Captcha verification failed",
+        },
+        {
+          status: 400,
+        }
+      );
+    }
+
+    const parsed =
+      contactSchema.safeParse(formData);
 
     if (!parsed.success) {
       return NextResponse.json(
@@ -32,7 +80,7 @@ export async function POST(req: Request) {
     } = parsed.data;
 
     await resend.emails.send({
-      from: "DuoArtAle.com<onboarding@resend.dev>",
+      from: "DuoArtAle.com <onboarding@resend.dev>",
       to: "artem.benefis@gmail.com",
       replyTo: email,
       subject: `New Booking Request from ${name}`,

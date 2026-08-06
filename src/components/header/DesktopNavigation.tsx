@@ -7,7 +7,7 @@ export default function DesktopNavigation() {
   const t = useTranslations("Header");
 
   const navItems = [
-    { label: t("home"), href: "/" },
+    { label: t("home"), href: "/#hero" },
     { label: t("about"), href: "/#about" },
     { label: t("shows"), href: "/#shows" },
     { label: t("gallery"), href: "/#gallery" },
