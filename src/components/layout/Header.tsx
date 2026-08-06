@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { SiInstagram } from "react-icons/si";
 import Logo from "@/components/header/Logo";
 import DesktopNavigation from "@/components/header/DesktopNavigation";
@@ -29,6 +30,7 @@ const navItems = [
 
 export default function Header() {
   const t = useTranslations("Header");
+  const [open, setOpen] = useState(false);
  
 
   return (
@@ -69,7 +71,10 @@ export default function Header() {
         {/* Mobile */}
         <div className="lg:hidden">
 
-          <Sheet>
+          <Sheet
+  open={open}
+  onOpenChange={(nextOpen) => setOpen(nextOpen)}
+>
 
             <SheetTrigger
   render={
@@ -91,10 +96,11 @@ export default function Header() {
 
                 {navItems.map((item) => (
                   <Link
-  key={item.label}
-  href={item.href}
-  className="text-left text-xl font-medium hover:text-red-500"
->
+                    key={item.label}
+                    onClick={() => setOpen(false)}
+                    href={item.href}
+                    className="text-left text-xl font-medium hover:text-red-500"
+                   >
   {item.label}
 </Link>
                 ))}
@@ -102,6 +108,7 @@ export default function Header() {
   <div className="flex items-center justify-center gap-8">
     <a
       href="https://instagram.com/artem_artale"
+      onClick={() => setOpen(false)}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Instagram"
@@ -112,6 +119,7 @@ export default function Header() {
 
     <a
       href="mailto:artem.benefis@gmail.com"
+      onClick={() => setOpen(false)}
       aria-label="Email"
       className="transition hover:text-red-500"
     >
@@ -120,6 +128,7 @@ export default function Header() {
 
     <a
       href="tel:+421944230778"
+      onClick={() => setOpen(false)}
       aria-label="Phone"
       className="transition hover:text-red-500"
     >
@@ -128,7 +137,9 @@ export default function Header() {
   </div>
 </div>
 
-<Link href="/contact">
+        <Link href="/contact"
+        onClick={() => setOpen(false)}>
+
   <Button className="mt-6 rounded-xl bg-red-600 hover:bg-red-700">
     {t("book")}
   </Button>
@@ -137,17 +148,8 @@ export default function Header() {
 <div className="mt-2 border-t border-white/10 pt-6">
   <LanguageDropdown />
 </div>
-                <div className="mt-6">
-  <LanguageDropdown />
-</div>
-
-                              <Link href="/contact">
-  <Button className="mt-6 rounded-xl bg-red-600 hover:bg-red-700">
-    {t("book")}
-  </Button>
-</Link>
-
-              </div>
+               
+             </div>
 
             </SheetContent>
 
