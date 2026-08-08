@@ -351,7 +351,7 @@ description: [
       "/images/acts/gallery/hulahoop3.jpg",
     ],
     imageAlt: "Hula Hoop performance",
-    video: "https://youtu.be/idRFmcQUO08",
+    video: "https://youtu.be/GQ_v8Y6QZvI?is=lFU0NvtNFF_Uhr2J",
     shortDescription:
       `A high-energy hula hoop performance
       filled with rhythm, speed and technical precision.`,

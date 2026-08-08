@@ -343,7 +343,7 @@ export const acts: Act[] = [
       "/images/acts/gallery/hulahoop3.jpg",
     ],
     imageAlt: "Виступ з хула-хупами",
-    video: "https://youtu.be/idRFmcQUO08",
+    video: "https://youtu.be/GQ_v8Y6QZvI?is=lFU0NvtNFF_Uhr2J",
     shortDescription:
       "Яскравий і динамічний номер з хула-хупами, наповнений ритмом, швидкістю та технічною майстерністю.",
     description: [
