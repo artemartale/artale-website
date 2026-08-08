@@ -302,7 +302,7 @@ export const acts: Act[] = [
     
 {
     slug: "cyr-wheel",
-    title: "Сір-колесо",
+    title: "Колесо Сіра",
     category: "Соло",
     cardImage: "/images/acts/cards/cyrwheel.jpg",
     heroImage: "/images/acts/hero/cyrwheel.jpg",
@@ -311,10 +311,10 @@ export const acts: Act[] = [
       "/images/acts/gallery/cyrwheel2.jpg",
       "/images/acts/gallery/cyrwheel3.jpg",
     ],
-    imageAlt: "Виступ на Сір-колесі",
+    imageAlt: "Виступ на Колесі Сіра",
     video: "",
     shortDescription:
-      "Потужний номер на Сір-колесі, що поєднує плавний рух, баланс і захопливі обертання.",
+      "Потужний номер на Колесі Сіра, що поєднує плавний рух, баланс і захопливі обертання.",
     description: [
       "Cyr Wheel — сучасний сольний номер із безперервним рухом, динамічними обертами та винятковим контролем тіла всередині великого колеса.",
 
